@@ -1,0 +1,12 @@
+QUESTION NO:1
+
+numbers = [2, 3, 2, 5, 3, 2, 5, 8]
+result = {}
+
+for n in numbers:
+  if n in result:
+    result[n] += 1
+else:
+  result[n] = 1
+
+print(result)
