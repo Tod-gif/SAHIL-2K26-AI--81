@@ -1,0 +1,13 @@
+QUESTION No: 4
+
+words = ['apple', 'ant', 'banana', 'ball', 'cat']
+result = {}
+
+for w in words:
+    first = w[0]
+    if first in result:
+        result[first].append(w)
+else:
+    result[first] = [w]
+
+print(result)
